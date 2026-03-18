@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { color: #e2e8f0; background: #050a15; font-family: system-ui, -apple-system, sans-serif; }
+.glass-panel { @apply bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 rounded-xl; }
